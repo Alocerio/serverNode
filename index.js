@@ -1,5 +1,19 @@
-const http = require('http');
+
+//Create a express Server
+const express = require('express');
 const cc = require('rgb-console');
+const server = express();
+
+server.listen(3000, () => {
+    cc.ok('Server is running on port 3000');
+})
+
+/*
+
+// Create a Node server 
+
+const http = require('http');
+
 
 const handleServer = (req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -15,16 +29,6 @@ server.listen(3000, function(){
 });
 
 
-
-
-
-
-
-
-
-
-
-/*
 
 fs.writeFile('./texto.txt', 'linea uno', function (err) {
     if (err) {
