@@ -1,0 +1,14 @@
+{
+  "name": "session1",
+  "version": "1.0.0",
+  "description": "Aprendido en videos de Fatz ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "KutzMachine",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
